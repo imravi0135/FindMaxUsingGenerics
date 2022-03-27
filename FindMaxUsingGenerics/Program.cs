@@ -12,7 +12,9 @@ namespace FindMaxUsingGenerics
         {
             Console.WriteLine("Welcome to the generic problems");
             MaxNumber maxNumber = new MaxNumber();
-            Console.WriteLine("Maximun Number Is :" + maxNumber.Maximum(10, 20, 15));
+            Console.WriteLine("Maximun Integer Number Is :" + maxNumber.Maximum(10, 20, 15));
+            MaxFloatNumber maxfloatnum = new MaxFloatNumber();
+            Console.WriteLine("Maximum Float Number Is :" + maxfloatnum.FloatNumber(9.54f, 5.96f, 8.7f));
             Console.ReadKey();
         }
     }
