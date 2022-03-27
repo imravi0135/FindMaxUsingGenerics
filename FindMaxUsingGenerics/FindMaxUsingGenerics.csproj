@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MaxString.cs" />
     <Compile Include="IntMaxNumber.cs" />
     <Compile Include="MaxFloatNumber.cs" />
     <Compile Include="Program.cs" />
